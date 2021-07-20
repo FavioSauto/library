@@ -1,0 +1,21 @@
+.Authors__Content {
+  padding: 20px 40px;
+  display: flex;
+}
+
+.Authors__Breadcrumbs {
+  padding-left: 40px;
+}
+
+.Authors__Sidebar {
+  margin-right: 25px;
+}
+
+.Authors__List {
+  width: 75%;
+  margin-left: 25px;
+}
+
+.Authors__List__item {
+  margin: 10px 0;
+}

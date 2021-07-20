@@ -1,0 +1,21 @@
+.Books__Content {
+  padding: 20px 40px;
+  display: flex;
+}
+
+.Books__Breadcrumbs {
+  padding-left: 40px;
+}
+
+.Books__Sidebar {
+  margin-right: 25px;
+}
+
+.Books__List {
+  width: 75%;
+  margin-left: 25px;
+}
+
+.Books__List__Item {
+  margin: 10px 0;
+}

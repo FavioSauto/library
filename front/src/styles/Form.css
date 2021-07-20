@@ -1,0 +1,74 @@
+.Form {
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 25%);
+  padding: 20px 10px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FormSection__Wrapper {
+  margin-bottom: 10px;
+}
+
+.FormSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.FormSection__Label {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.FormSection__Input {
+  height: 2rem;
+  font-size: 1rem;
+  padding-left: 6px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid hsl(0, 0%, 25%);
+}
+
+.FormSection__Select {
+  height: 2rem;
+  font-size: 1rem;
+  padding-left: 6px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid hsl(0, 0%, 25%);
+}
+
+.FormSection__Textarea {
+  height: 8rem;
+  resize: none;
+  font-size: 1rem;
+  padding-left: 6px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid hsl(0, 0%, 25%);
+}
+
+.FormSection__SubmitButton {
+  align-self: center;
+  background: hsl(0, 0%, 100%);
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid hsl(0, 0%, 25%);
+  transition: background 0.75s ease-in-out;
+  transition: color 0.75s ease-in-out;
+}
+
+.FormSection__SubmitButton:hover {
+  border: 1px solid hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 25%);
+  transition: background 0.75s ease-in-out;
+  transition: color 0.75s ease-in-out;
+}
+
+.FormSection__Required {
+  color: hsl(0, 100%, 65%);
+}
